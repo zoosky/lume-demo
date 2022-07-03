@@ -1,5 +1,4 @@
 ---
-layout: layout.njk
 title: My second page
 ---
 # Another page
