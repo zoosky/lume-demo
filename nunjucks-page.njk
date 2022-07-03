@@ -7,19 +7,18 @@ links:
   - text: My GitHub profile
     url: https://github.com/oscarotero
 ---
-       
+
 <article>
-   <header>
-            <h1>{{ title }}</h1>
-   </header>
-            
-    <ul>
-              {% for link in links %}
-                 <li>
-                      <a href="{{ link.url }}">
-                        {{ link.text }}
-                      </a>
-                 </li>
-              {% endfor %}
-    </ul>
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
+  <ul>
+    {% for link in links %}
+      <li>
+        <a href="{{ link.url }}">
+          {{ link.text }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </article>
